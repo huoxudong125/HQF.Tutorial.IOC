@@ -38,5 +38,5 @@ To learn more about Windsor see its documentation page.
 [Autofac](http://autofac.org/)  
 [Unity](https://unity.codeplex.com/)   
 [MEF](https://mef.codeplex.com/)    
-[Ninject](http://www.ninject.org/) 
+[Ninject](http://www.ninject.org/)    
 [windsor](http://www.castleproject.org/projects/windsor/)   
