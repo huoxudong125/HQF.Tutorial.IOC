@@ -49,6 +49,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\HQF.Tutorial.IOC.Common.Interface\HQF.Tutorial.IOC.Common.Interface.csproj">
+      <Project>{2833c8d8-593b-4b4d-be21-35091231d9d5}</Project>
+      <Name>HQF.Tutorial.IOC.Common.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

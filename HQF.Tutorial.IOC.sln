@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.IOC.Autofac", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.IOC.MEF", "Source\HQF.Tutorial.IOC.MEF\HQF.Tutorial.IOC.MEF.csproj", "{C1EFF5AA-2875-415B-BFF8-76AC65724279}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{1787DC0E-4E51-496A-8546-637373FE0E4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.IOC.Common.Interface", "Source\Common\HQF.Tutorial.IOC.Common.Interface\HQF.Tutorial.IOC.Common.Interface.csproj", "{2833C8D8-593B-4B4D-BE21-35091231D9D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.IOC.Common.Implement", "Source\Common\HQF.Tutorial.IOC.Common.Implement\HQF.Tutorial.IOC.Common.Implement.csproj", "{71C38793-140E-4F0F-9682-0E3B0652520E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,8 +39,20 @@ Global
 		{C1EFF5AA-2875-415B-BFF8-76AC65724279}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1EFF5AA-2875-415B-BFF8-76AC65724279}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1EFF5AA-2875-415B-BFF8-76AC65724279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2833C8D8-593B-4B4D-BE21-35091231D9D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2833C8D8-593B-4B4D-BE21-35091231D9D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2833C8D8-593B-4B4D-BE21-35091231D9D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2833C8D8-593B-4B4D-BE21-35091231D9D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C38793-140E-4F0F-9682-0E3B0652520E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C38793-140E-4F0F-9682-0E3B0652520E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C38793-140E-4F0F-9682-0E3B0652520E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C38793-140E-4F0F-9682-0E3B0652520E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2833C8D8-593B-4B4D-BE21-35091231D9D5} = {1787DC0E-4E51-496A-8546-637373FE0E4D}
+		{71C38793-140E-4F0F-9682-0E3B0652520E} = {1787DC0E-4E51-496A-8546-637373FE0E4D}
 	EndGlobalSection
 EndGlobal
