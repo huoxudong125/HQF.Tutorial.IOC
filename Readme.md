@@ -2,6 +2,12 @@
 The Solution is to demo the IOC components .
 
 ##Intruduction
+##Autofac
+
+###More pakages using Autofac
+![Autofac_nuget](Books\Pictures\autofac_nuget.png)
+
+
 ###Unity
 The Unity Container (Unity) is a lightweight, extensible dependency injection container. It facilitates building loosely coupled applications and provides developers with the following advantages:
 
