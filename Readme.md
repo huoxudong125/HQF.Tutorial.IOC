@@ -5,6 +5,9 @@ The Solution is to demo the IOC components .
 ##Autofac
 
 ###More pakages using Autofac
+Autofac is an addictive Inversion of Control container for .NET 4.5, Silverlight 5, Windows Store apps, and Windows Phone 8 apps.
+
+
 ![Autofac_nuget](Books/Pictures/autofac_nuget.png)
 
 
