@@ -5,7 +5,7 @@ The Solution is to demo the IOC components .
 ##Autofac
 
 ###More pakages using Autofac
-![Autofac_nuget](Books\Pictures\autofac_nuget.png)
+![Autofac_nuget](Books/Pictures/autofac_nuget.png)
 
 
 ###Unity
