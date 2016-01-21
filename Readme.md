@@ -5,7 +5,10 @@ The Solution is to demo the IOC components .
 ##Autofac
 
 ###More pakages using Autofac
-![Autofac_nuget](Books\Pictures\autofac_nuget.png)
+Autofac is an addictive Inversion of Control container for .NET 4.5, Silverlight 5, Windows Store apps, and Windows Phone 8 apps.
+
+
+![Autofac_nuget](Books/Pictures/autofac_nuget.png)
 
 
 ###Unity
@@ -22,8 +25,18 @@ The Unity Container (Unity) is a lightweight, extensible dependency injection co
 
 
 
+##Windsor
+Castle Windsor is a best of breed, mature Inversion of Control container available for .NET and Silverlight.
+
+The current version is 3.3.0, released in May 2014. Refer to the links on the right to download it from GitHub or NuGet.
+To learn more about Windsor see its documentation page.
+
+##Sping.Net
+
+
 ##Office WebSite
 [Autofac](http://autofac.org/)  
 [Unity](https://unity.codeplex.com/)   
 [MEF](https://mef.codeplex.com/)    
 [Ninject](http://www.ninject.org/)    
+[windsor](http://www.castleproject.org/projects/windsor/)   
