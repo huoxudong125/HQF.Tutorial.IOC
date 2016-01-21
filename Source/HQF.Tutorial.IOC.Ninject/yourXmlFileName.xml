@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--http://stackoverflow.com/a/27657020/1616023-->
+<module name="myXmlConfigurationModule">
+  <bind service="HQF.Tutorial.IOC.Common.Interface.InterfaceA, HQF.Tutorial.IOC.Common.Interface"
+        to="HQF.Tutorial.IOC.Common.Implement.ImplementA, HQF.Tutorial.IOC.Common.Implement" />
+  
+  <!--<bind service="MyNamespace.IMyOtherService, MyAssembly"
+        to="MyNamespace.MyOtherServiceImplementation, MyAssembly" />-->
+  
+</module>
