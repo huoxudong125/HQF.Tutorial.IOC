@@ -40,8 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IItemService.cs" />
     <Compile Include="InterfaceA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HQF.Tutorial.IOC.Common.Models\HQF.Tutorial.IOC.Common.Models.csproj">
+      <Project>{f9dba16c-f407-412a-b1bd-9495d4966958}</Project>
+      <Name>HQF.Tutorial.IOC.Common.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

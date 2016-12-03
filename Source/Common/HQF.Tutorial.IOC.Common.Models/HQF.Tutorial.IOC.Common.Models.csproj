@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{71C38793-140E-4F0F-9682-0E3B0652520E}</ProjectGuid>
+    <ProjectGuid>{F9DBA16C-F407-412A-B1BD-9495D4966958}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HQF.Tutorial.IOC.Common.Implement</RootNamespace>
-    <AssemblyName>HQF.Tutorial.IOC.Common.Implement</AssemblyName>
+    <RootNamespace>HQF.Tutorial.IOC.Common.Models</RootNamespace>
+    <AssemblyName>HQF.Tutorial.IOC.Common.Models</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -16,7 +16,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\bin\Debug\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -24,7 +24,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\..\bin\Release\</OutputPath>
+    <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -40,19 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ImplementA.cs" />
-    <Compile Include="ItemService.cs" />
+    <Compile Include="ItemEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\HQF.Tutorial.IOC.Common.Interface\HQF.Tutorial.IOC.Common.Interface.csproj">
-      <Project>{2833c8d8-593b-4b4d-be21-35091231d9d5}</Project>
-      <Name>HQF.Tutorial.IOC.Common.Interface</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\HQF.Tutorial.IOC.Common.Models\HQF.Tutorial.IOC.Common.Models.csproj">
-      <Project>{F9DBA16C-F407-412A-B1BD-9495D4966958}</Project>
-      <Name>HQF.Tutorial.IOC.Common.Models</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
