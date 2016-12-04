@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.IOC.AOP.Autofa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.IOC.Common.Models", "Source\Common\HQF.Tutorial.IOC.Common.Models\HQF.Tutorial.IOC.Common.Models.csproj", "{F9DBA16C-F407-412A-B1BD-9495D4966958}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.IOC.Spring", "Source\HQF.Tutorial.IOC.Spring\HQF.Tutorial.IOC.Spring.csproj", "{9553CA07-7803-4794-86FA-DBA38E10B2A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -82,6 +84,10 @@ Global
 		{F9DBA16C-F407-412A-B1BD-9495D4966958}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9DBA16C-F407-412A-B1BD-9495D4966958}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9DBA16C-F407-412A-B1BD-9495D4966958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9553CA07-7803-4794-86FA-DBA38E10B2A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9553CA07-7803-4794-86FA-DBA38E10B2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9553CA07-7803-4794-86FA-DBA38E10B2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9553CA07-7803-4794-86FA-DBA38E10B2A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,5 +103,6 @@ Global
 		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47} = {F791926C-4081-4535-93E4-17D9E96FF9B0}
 		{F155F26A-9BB4-400A-8BA4-F5B9ED400052} = {50C553C1-28C6-4C71-88A8-D19E5D22A32F}
 		{F9DBA16C-F407-412A-B1BD-9495D4966958} = {1787DC0E-4E51-496A-8546-637373FE0E4D}
+		{9553CA07-7803-4794-86FA-DBA38E10B2A0} = {911C179F-D73A-4133-8E2B-6DA0B44BB892}
 	EndGlobalSection
 EndGlobal
