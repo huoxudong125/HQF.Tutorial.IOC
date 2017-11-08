@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.IOC.Unity", "Source\HQF.Tutorial.IOC.Unity\HQF.Tutorial.IOC.Unity.csproj", "{5B43971E-48DF-429F-9122-93EE320EDCC7}"
 EndProject
@@ -37,6 +37,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.IOC.Common.Models", "Source\Common\HQF.Tutorial.IOC.Common.Models\HQF.Tutorial.IOC.Common.Models.csproj", "{F9DBA16C-F407-412A-B1BD-9495D4966958}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.IOC.Spring", "Source\HQF.Tutorial.IOC.Spring\HQF.Tutorial.IOC.Spring.csproj", "{9553CA07-7803-4794-86FA-DBA38E10B2A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.IOC.Autofac.Generic", "Source\HQF.Tutorial.IOC.Autofac.Generic\HQF.Tutorial.IOC.Autofac.Generic.csproj", "{4E4612B8-0B04-41E4-AE48-4C76729F8FF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -88,6 +90,10 @@ Global
 		{9553CA07-7803-4794-86FA-DBA38E10B2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9553CA07-7803-4794-86FA-DBA38E10B2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9553CA07-7803-4794-86FA-DBA38E10B2A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4612B8-0B04-41E4-AE48-4C76729F8FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4612B8-0B04-41E4-AE48-4C76729F8FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4612B8-0B04-41E4-AE48-4C76729F8FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4612B8-0B04-41E4-AE48-4C76729F8FF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,5 +110,9 @@ Global
 		{F155F26A-9BB4-400A-8BA4-F5B9ED400052} = {50C553C1-28C6-4C71-88A8-D19E5D22A32F}
 		{F9DBA16C-F407-412A-B1BD-9495D4966958} = {1787DC0E-4E51-496A-8546-637373FE0E4D}
 		{9553CA07-7803-4794-86FA-DBA38E10B2A0} = {911C179F-D73A-4133-8E2B-6DA0B44BB892}
+		{4E4612B8-0B04-41E4-AE48-4C76729F8FF4} = {911C179F-D73A-4133-8E2B-6DA0B44BB892}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDCF78B0-EF20-4016-87F1-7115B514F09F}
 	EndGlobalSection
 EndGlobal
